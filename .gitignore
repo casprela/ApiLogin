@@ -1,0 +1,26 @@
+# Visual Studio
+.vs/
+bin/
+obj/
+
+# Android
+.android/
+.gradle/
+local.properties
+
+# Node
+node_modules/
+
+# Logs
+*.log
+
+# Cache
+*.cache
+
+# Temp
+temp/
+tmp/
+
+# User files
+*.user
+*.suo
