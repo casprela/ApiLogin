@@ -77,7 +77,7 @@ namespace ApiLogin.Controllers
           issuer: "ApiLogin",
           audience: "ReactApp",
           claims: claims,
-          expires: DateTime.UtcNow.AddMinutes(30),
+          expires: DateTime.UtcNow.AddMinutes(5),
           signingCredentials: creds
       );
 
